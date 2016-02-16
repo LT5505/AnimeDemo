@@ -14,7 +14,7 @@
     </style>
 
     <style name="last_pager_btn_style">
-        <item name="android:color">@color/red</item>
+        <item name="android:textColor">@color/red</item>
         <item name="android:textSize">16sp</item>
     </style>
 
