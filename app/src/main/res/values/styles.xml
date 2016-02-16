@@ -13,4 +13,9 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+    <style name="last_pager_btn_style">
+        <item name="android:color">@color/red</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

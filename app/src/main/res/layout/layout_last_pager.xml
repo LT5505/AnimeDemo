@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager_rly_open"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/pager_btn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="@dimen/layout_last_pager_btn_horizontal_padding"
+        android:paddingRight="@dimen/layout_last_pager_btn_horizontal_padding"
+        android:paddingTop="@dimen/layout_last_pager_btn_vertical_padding"
+        android:paddingBottom="@dimen/layout_last_pager_btn_vertical_padding"
+        android:layout_marginBottom="@dimen/layout_last_pager_btn_margin_bottom"
+        android:text="@string/last_pager_btn_txt"
+        android:background="@drawable/btn_open_bg"
+        style="@style/last_pager_btn_style"
+       />
+
+</RelativeLayout>

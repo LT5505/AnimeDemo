@@ -1,4 +1,4 @@
-package com.liuting.animedemo;
+package com.liuting.animedemo.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+
+import com.liuting.animedemo.R;
 
 /**
  * Created by liuting on 2016/2/16.

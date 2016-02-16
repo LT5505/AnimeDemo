@@ -1,7 +1,9 @@
-package com.liuting.animedemo;
+package com.liuting.animedemo.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.liuting.animedemo.R;
 
 public class MainActivity extends AppCompatActivity {
 

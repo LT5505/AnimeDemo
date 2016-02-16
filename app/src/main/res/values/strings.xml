@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AnimeDemo</string>
+    <string name="app_name">Miyazaki-Hayao-Anime</string>
+    <string name="last_pager_btn_txt">立即体验</string>
 </resources>
