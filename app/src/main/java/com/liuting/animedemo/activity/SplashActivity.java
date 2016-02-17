@@ -7,6 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -90,7 +91,7 @@ public class SplashActivity extends Activity implements ViewPager.OnPageChangeLi
         listImages = new ImageView[listViews.size()];
         for (int i = 0; i < listImages.length; i++) {
             ImageView imageView = new ImageView(this);
-            imageView.setLayoutParams(new ViewGroup.LayoutParams(10, 10));
+            imageView.setLayoutParams(new ViewGroup.LayoutParams(16, 16));
             listImages[i] = imageView;
             if (i == 0) {
                 listImages[i].setBackgroundResource(R.drawable.page_indicator_focused);
@@ -103,6 +104,7 @@ public class SplashActivity extends Activity implements ViewPager.OnPageChangeLi
             layoutParams.leftMargin = 5;
             layoutParams.rightMargin = 5;
             layoutParams.bottomMargin =10;
+//            layoutParams.gravity= Gravity.CENTER;
             group.addView(imageView, layoutParams);
         }
         //设置监听，主要是设置点点的背景
